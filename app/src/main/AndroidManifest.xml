@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Workshop">
         <activity
+            android:name=".Settings"
+            android:exported="true" />
+        <activity
+            android:name=".ContactInfo"
+            android:exported="true" />
+        <activity
+            android:name=".Journal"
+            android:exported="true" />
+        <activity
+            android:name=".Contacts"
+            android:exported="true" />
+        <activity
+            android:name=".InfosPerso"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
