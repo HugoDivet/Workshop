@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".Contacts">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="152dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
