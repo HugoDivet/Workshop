@@ -70,8 +70,8 @@
         android:id="@+id/button14"
         android:layout_width="232dp"
         android:layout_height="47dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginBottom="576dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="572dp"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -80,8 +80,8 @@
         android:id="@+id/button15"
         android:layout_width="232dp"
         android:layout_height="47dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginBottom="624dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="616dp"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
