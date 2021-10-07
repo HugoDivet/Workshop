@@ -13,3 +13,11 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+.idea/
+
+app/src/main/res/values/themes.xml
+
+app/src/main/res/values-night/themes.xml
+
+app/src/main/AndroidManifest.xml
