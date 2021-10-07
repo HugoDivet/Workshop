@@ -12,8 +12,9 @@
         android:layout_width="105dp"
         android:layout_height="141dp"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="297dp"
-        android:layout_marginBottom="572dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="166dp"
+        android:layout_marginBottom="563dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/logows" />
@@ -24,8 +25,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="105dp"
-        android:layout_marginBottom="501dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="446dp"
         android:text="Change color" />
 
     <TextView
@@ -34,9 +35,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="218dp"
-        android:layout_marginBottom="666dp"
-        android:text="Settings" />
+        android:layout_marginEnd="284dp"
+        android:layout_marginBottom="511dp"
+        android:text="Settings"
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -44,7 +46,19 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="336dp"
-        android:layout_marginBottom="411dp"
-        android:text="About" />
+        android:layout_marginEnd="318dp"
+        android:layout_marginBottom="323dp"
+        android:text="About"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="352dp"
+        android:layout_height="149dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="140dp"
+        android:text="Lorem Ipsum memoriees a propos handicap"
+        android:textSize="16sp" />
 </RelativeLayout>
