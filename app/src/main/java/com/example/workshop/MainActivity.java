@@ -89,12 +89,7 @@ public class MainActivity extends AppCompatActivity {
         enregistrer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(nom.getText().toString().isEmpty()){
-                    Toast.makeText(MainActivity.this, "Please enter data", Toast.LENGTH_LONG).show();
-                    nom.setError("Please input");
-                    nom.requestFocus();
-                    return;
-                }
+
                 saveData("key_1", nom.getText().toString());
                 saveData("key_2", prenom.getText().toString());
                 saveData("key_3", numtel.getText().toString());
