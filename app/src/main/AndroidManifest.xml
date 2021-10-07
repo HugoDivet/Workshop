@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Workshop">
         <activity
-            android:name=".AddInfosPerso"
+            android:name=".AddJournal"
             android:exported="true" />
         <activity
             android:name=".Settings"
@@ -20,19 +20,18 @@
             android:exported="true" />
         <activity
             android:name=".Journal"
-            android:exported="true" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".Contacts"
             android:exported="true" />
         <activity
             android:name=".InfosPerso"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true" />
