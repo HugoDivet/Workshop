@@ -80,7 +80,7 @@ public class NoteContacts {
     }
 
     public String getTel() {
-        return photo;
+        return tel;
     }
 
     public void setTel(String tel) {

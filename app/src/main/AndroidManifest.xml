@@ -12,11 +12,35 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
+        </activity>
+        <activity
+            android:name=".ContactInfo"
+            android:exported="true">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Contacts"/>
+
+        </activity>
+        <activity
+            android:name=".Contacts"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".InfosPerso"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Journal"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Settings"
+            android:exported="true">
         </activity>
     </application>
 

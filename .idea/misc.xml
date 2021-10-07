@@ -4,7 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/theof/StudioProjects/Workshop/app/src/main/res/layout/activity_contact_info.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/theof/StudioProjects/Workshop/app/src/main/res/layout/activity_contacts.xml" value="0.278125" />
         <entry key="..\:/Users/theof/StudioProjects/Workshop/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/theof/StudioProjects/Workshop/app/src/main/res/layout/list_view_contact.xml" value="0.33" />
+        <entry key="..\:/Users/theof/StudioProjects/Workshop/app/src/main/res/menu/menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/theof/StudioProjects/Workshop/app/src/main/res/menu/menuContactInfo.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/theof/StudioProjects/Workshop/app/src/main/res/menu/menu_contact.xml" value="0.278125" />
       </map>
     </option>
   </component>
