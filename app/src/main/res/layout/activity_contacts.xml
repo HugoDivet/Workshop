@@ -7,102 +7,22 @@
     tools:context=".Contacts">
 
     <Button
-        android:id="@+id/utilisateur1"
+        android:id="@+id/ajout"
         android:layout_width="232dp"
         android:layout_height="47dp"
-        android:layout_marginEnd="88dp"
-        android:layout_marginBottom="608dp"
-        android:text="nom prénom"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <Button
-        android:id="@+id/utilisateur2"
-        android:layout_width="232dp"
-        android:layout_height="47dp"
-        android:layout_marginEnd="88dp"
-        android:layout_marginBottom="520dp"
-        android:text="nom prénom"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <Button
-        android:id="@+id/utilisateur3"
-        android:layout_width="232dp"
-        android:layout_height="47dp"
-        android:layout_marginEnd="88dp"
-        android:layout_marginBottom="432dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="596dp"
         android:text="+"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/utilisateur6"
-        android:layout_width="232dp"
-        android:layout_height="47dp"
-        android:layout_marginEnd="88dp"
-        android:layout_marginBottom="476dp"
-        android:text="nom prénom"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <Button
-        android:id="@+id/utilisateur7"
-        android:layout_width="232dp"
-        android:layout_height="47dp"
-        android:layout_marginEnd="88dp"
-        android:layout_marginBottom="564dp"
-        android:text="nom prénom"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <Button
-        android:id="@+id/utilisateur8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="136dp"
-        android:layout_marginBottom="340dp"
-        android:text="nom prénom"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <Button
-        android:id="@+id/ajout_utilisateur"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="136dp"
-        android:layout_marginBottom="196dp"
-        android:text="nom prénom"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <Button
-        android:id="@+id/utilisateur5"
+        android:id="@+id/ajout2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="160dp"
-        android:layout_marginBottom="148dp"
+        android:layout_marginBottom="340dp"
         android:text="+"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <Button
-        android:id="@+id/utilisateur4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="136dp"
-        android:layout_marginBottom="244dp"
-        android:text="nom prénom"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <Button
-        android:id="@+id/utilisateur9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="136dp"
-        android:layout_marginBottom="292dp"
-        android:text="nom prénom"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
