@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -15,7 +16,6 @@ import android.widget.EditText;
 public class ContactInfo extends AppCompatActivity {
 
     EditText nom,prenom,relation,phone,note;
-    Button save;
     Toolbar toolbar;
 
 
@@ -29,7 +29,6 @@ public class ContactInfo extends AppCompatActivity {
         relation = findViewById(R.id.relation);
         phone = findViewById(R.id.phone);
         note = findViewById(R.id.note);
-        save = findViewById(R.id.btnSave);
         toolbar = findViewById(R.id.toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
@@ -53,12 +52,17 @@ public class ContactInfo extends AppCompatActivity {
                 long id = fDB.addNoteContacts(note_contact);
                 NoteContacts check = fDB.getNoteContacts(id);
                 Log.d("test", "Note: " + id + " -> Title:" + check.getNom() + " " + check.getPrenom() + " " + check.getRelation() + " " + check.getTel() + " " + check.getInfos());
-                onBackPressed();
+                GoToContact();
             }
         }
         if(item.getItemId() == R.id.menuDelete){
 
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    private void GoToContact() {
+        Intent i = new Intent(this,Contacts.class);
+        startActivity(i);
     }
 }
